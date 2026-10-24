@@ -1,0 +1,25 @@
+# Entornos virtuales de Python
+.venv/
+venv/
+ENV/
+env/
+
+# Archivos compilados y de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Archivos de entorno y credenciales (¡Muy importante!)
+.env
+*.env.local
+secret.json
+credentials.json
+
+# Directorios de control de versiones y editores
+.git/
+.DS_Store
+.vscode/
+.idea/
